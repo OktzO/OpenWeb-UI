@@ -23,5 +23,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/bolt-diy:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/openweb:latest
           platforms: linux/amd64
